@@ -1,0 +1,22 @@
+{
+  "name": "thesparks",
+  "version": "1.0.0",
+  "main": "jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Shehab Khamis",
+  "license": "ISC",
+  "description": "Task1 at the sparks internship",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
+  }
+}
