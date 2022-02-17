@@ -22,4 +22,4 @@ app.use(express.static(path.join(__dirname,'public')))
 app.use('/admin',adminRoutes);
 
 app.use(_404Controller)
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
