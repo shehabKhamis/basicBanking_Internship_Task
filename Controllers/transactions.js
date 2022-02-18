@@ -76,7 +76,7 @@ module.exports.postTransfer=(req,res)=>
            }
            else
            {
-               pop = "There is no sufficient money !!"
+               pop = "Insufficient Funds !!"
                User.get().then(([rows,fieldData])=>
                {
                    res.render('View-all-users',{clients : rows,pop : pop});
